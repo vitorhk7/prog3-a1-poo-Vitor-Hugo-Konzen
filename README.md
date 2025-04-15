@@ -1,4 +1,4 @@
-# Projeto A1 - Sistema de Cadastro de Usuários (PHP) - Gabriela Demossi
+# Projeto A1 - Sistema de Cadastro de Usuários (PHP) - Vitor Hugo Konzen
 
 ## 📚 Sobre o projeto
 Projeto desenvolvido para a atividade A1, com aplicação dos conteúdos aprendidos tanto em aula quanto com alguns tutoriais do youtube.
