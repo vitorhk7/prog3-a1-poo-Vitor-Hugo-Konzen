@@ -1,68 +1,47 @@
-# Projeto A1 - Sistema de Cadastro de Usuários (PHP) - Vitor Hugo Konzen
-5 FASE - Ciência da Computação, UNOESC SAO MIGUEL DO OESTE
+Projeto A1 - Sistema de Cadastro e Autenticação de Usuários
+Desenvolvido por: Vitor Hugo Konzen
+Disciplina: Programação III – UNOESC - SMO
+Curso: Ciencias da Computação
+📋 Descrição do Projeto
+Este é um sistema simples de cadastro e login de usuários, desenvolvido inteiramente com PHP puro e Programação Orientada a Objetos (POO). O objetivo é aplicar conceitos de sessões, cookies, segurança, e organização de código em um projeto funcional.
 
-## 📚 Sobre o projeto
-Projeto desenvolvido para a atividade A1, com aplicação dos conteúdos aprendidos tanto em aula quanto com alguns tutoriais do youtube.
-
-O sistema inclui:
-- Cadastro e Login de Usuários
-- Sessões para controle de acesso
-- Segurança aplicada (validação de dados e criptografia de senha)
-- Cadastro de Veículos atrelado ao usuário logado
-- Estilização com CSS
-
----
-
-## 🛠️ Tecnologias Utilizadas
-- PHP 7.4+
-- CSS3
-- HTML5
-
----
-
-## ⚙️ Como executar o projeto
-
-1. Instale um servidor local (recomendado XAMPP, WAMP ou Laragon).
-
-2. Coloque o projeto na pasta `htdocs` (ou equivalente):
-
-3. Acesse pelo navegador: http://localhost/prog3-a1-poo-Vitor-Hugo-Konzen/index.php
----
-
-4. Você poderá:
-- Cadastrar novos usuários.
-- Fazer login usando o email e senha cadastrados.
-- Ser redirecionado para a área logada (Dashboard).
-- Fazer logout.
-
----
-
-## 📋 Funcionalidades
-
-- **Cadastro de Usuários:**
-- Formulário para nome, email e senha.
-- Validação e sanitização de dados.
-- Criação de objetos da classe `Usuario`.
-
-- **Login de Usuários:**
-- Verificação de credenciais dentro de um array.
-- Login utilizando sessão PHP.
-- Criação opcional de cookies para manter sessão ativa.
-
-- **Área Logada (Dashboard):**
-- Exibição de uma saudação personalizada para o usuário logado.
-
-- **Logout:**
-- Destruição da sessão e remoção do cookie, encerrando o acesso.
-
-## 🎨 Estilo Visual
-
-- **Verde para elementos principais.**
-- **Verde para botões de sucesso.**
-- **Branco para fundo e campos de entrada.**
-- **Layout simples e responsivo.**
-
-
-## 📚 Referências
-
-Sistema de Cadastro/Login com PHP - Gustavo Neitzke
+🚀 Funcionalidades
+✅ Cadastro de usuários com nome, e-mail e senha
+✅ Login com validação de e-mail e senha
+✅ Sessões para controle de acesso
+✅ Cookie para lembrar e-mail do usuário (opcional)
+✅ Dashboard com saudação personalizada
+✅ Logout com destruição da sessão
+✅ Interface estilizada com CSS
+✅ Tratamento e sanitização de dados
+💻 Estrutura de Diretórios
+🧪 Tecnologias Utilizadas
+PHP 7.4+
+HTML5
+CSS3
+Orientação a Objetos
+🔒 Segurança Implementada
+Hash de senhas com password_hash()
+Verificação com password_verify()
+Proteção de rotas com sessão
+Dados validados e sanitizados
+🎨 Estilo Visual
+Cores principais: preto e vermelho
+Layout responsivo e centrado
+Campos de input estilizados
+Botões com hover animado
+🛠️ Como Executar Localmente
+Instale um servidor local como XAMPP, WAMP ou Laragon.
+Clone este repositório ou copie os arquivos para a pasta htdocs do seu servidor.
+Inicie o servidor Apache.
+No navegador, acesse:
+http://localhost/projeto-a1/login.php
+Utilize o sistema normalmente:
+Cadastre um novo usuário.
+Faça login com e-mail e senha cadastrados.
+Teste a área logada, o logout e o cookie de lembrar e-mail.
+📌 Observações
+Este projeto simula um banco de dados com array na memória.
+Após cadastro, os dados ficam disponíveis apenas durante a sessão ativa.
+📚 Referências
+Documentação oficial do PHP
