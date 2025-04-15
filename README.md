@@ -25,7 +25,7 @@ O sistema inclui:
 
 2. Coloque o projeto na pasta `htdocs` (ou equivalente):
 
-3. Acesse pelo navegador: http://localhost/projeto-a1/login.php
+3. Acesse pelo navegador: http://localhost/prog3-a1-poo-Vitor-Hugo-Konzen/index.php
 ---
 
 4. Você poderá:
