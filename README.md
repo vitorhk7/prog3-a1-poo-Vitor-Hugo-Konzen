@@ -1,6 +1,6 @@
 # Projeto A1 - Sistema de Cadastro e Autenticação de Usuários
 
-### Desenvolvido por: Guilherme Depiné Neto  
+### Desenvolvido por: Vitor Hugo Konzen
 ### Disciplina: Programação III – UNOESC - SMO
 ### Curso: Ciencias da Computação
 
@@ -63,7 +63,7 @@ Este é um sistema simples de cadastro e login de usuários, desenvolvido inteir
 2. Clone este repositório ou copie os arquivos para a pasta htdocs do seu servidor.  
 3. Inicie o servidor Apache.  
 4. No navegador, acesse:  
-   http://localhost/projeto-a1/login.php  
+   http://localhost/prog3-a1-poo-Vitor-Hugo-Konzen/index.php  
 5. Utilize o sistema normalmente:
    - Cadastre um novo usuário.
    - Faça login com e-mail e senha cadastrados.
