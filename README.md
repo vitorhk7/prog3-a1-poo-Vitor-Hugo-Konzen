@@ -1,7 +1,7 @@
 # Projeto A1 - Sistema de Cadastro e Autenticação de Usuários
 
 ### Desenvolvido por: Vitor Hugo Konzen
-### Disciplina: Programação III – UNOESC - SMO
+### Disciplina: 5 FASE - Programação III – UNOESC - SMO
 ### Curso: Ciencias da Computação
 
 ---
