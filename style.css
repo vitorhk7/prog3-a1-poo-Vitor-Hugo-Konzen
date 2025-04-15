@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f8e9; /* Very Light Green */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff; /* White */
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #4caf50; /* Green */
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.3); /* Green shadow */
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    color: #4caf50; /* Green */
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #8bc34a; /* Light Green */
+    border-radius: 5px;
+    color: #212121; /* Dark Grey text */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8bc34a; /* Light Green */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #689f38; /* Darker Green */
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #43a047; /* Dark Green */
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #8bc34a; /* Light Green on hover */
+    text-decoration: underline;
+}
+
+.btn-sair {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f44336; /* Red - kept for error indication, can be changed to green if desired */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-sair:hover {
+    background-color: #d32f2f; /* Darker Red */
+}
+
+.erro {
+    color: #d32f2f; /* Red - kept for error indication */
+    margin-bottom: 10px;
+}
+
+.sucesso {
+    color: #4caf50; /* Green */
+    margin-bottom: 10px;
+}
